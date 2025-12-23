@@ -1,5 +1,5 @@
  
-
+// this is about enums use in JAVA. 
 public class enumss {
 enum Status{
     Running, Failed, Pending, Success; 

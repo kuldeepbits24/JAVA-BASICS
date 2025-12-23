@@ -1,8 +1,21 @@
-public class addition { 
-    public static void main(String[] args) { 
-        int a = 5;
-        int b = 6;
-        int sum = a+b;
-        System.out.println("The addition of both numbers is: " + sum); 
-    }
+
+import java.util.Scanner;
+
+public class addition {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter first integer: ");
+        int a = sc.nextInt();    
+
+        System.out.print("Enter second integer: ");
+        int b = sc.nextInt();    
+
+        int sum = a + b;
+        System.out.println("The addition of both numbers is: " + sum);
+
+        sc.close();  
 }
+}
+
+

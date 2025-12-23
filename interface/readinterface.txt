@@ -1,0 +1,3 @@
+every variable inside the interface is final and static. 
+so whenever we are declaring a variable in the interface then we have to initialize it also ,
+we can implmenet multiple inheritance using interface. 
